@@ -1,0 +1,71 @@
+body {
+    background-color: #1e96fc;
+    /* Bootstrap primary blue */
+    color: #fff;
+    /* Text color for better contrast on the blue background */
+
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    /* Adjust the font size as needed */
+}
+
+.container {
+    border-radius: 5px;
+    /* Optional: Add some border-radius for a softer look */
+    padding: 20px;
+    margin-top: 50px;
+    /* Adjust the margin as needed */
+}
+
+.cdClass {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    color: black;
+    text-align: center;
+}
+
+.login-container input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.card-body {
+    padding: 1.5rem;
+    /* Adjust padding as needed */
+}
